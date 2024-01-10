@@ -1,0 +1,32 @@
+body {
+    background: #141010
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 5px;
+    border: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.operation {
+    background-color: #f96d00;
+}
+
+.number {
+background-color: #5c5757;
+}
+
+.opps {
+    color: #000;
+}
+
+.zero {
+background-color: #5c5757;
+width: 210px;
+}
