@@ -1,32 +1,89 @@
 body {
-    background: #141010
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.calculator {
+  font-family: "DM Serif Display", serif;
+  font-family: "Playfair Display", serif;
+  max-width: 500px;
+  background: #141010;
+}
+
+.display {
+  width: 80%;
+  padding: 20px 20px 20px 20px;
+  font-size: 60px;
+  font-weight: 800;
+  text-align: left;
+  border: none;
+  background: #141010;
 }
 
 button {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    margin: 5px;
-    border: none;
-    color: #fff;
-    font-size: 40px;
-    font-weight: 700;
-    cursor: pointer;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  margin: 5px 10px 5px 10px;
+  border: none;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
+/* This is when the cursor hovers on the buttons -starts here */
+.operation:hover {
+  background-color: #f18f44;
+}
+
+.number:hover,
+.zero:hover {
+  background-color: #858080;
+}
+
+.opps:hover {
+  background-color: #cac5c5;
+}
+/* This is when the cursor hovers on the buttons -ends here */
+
+/* This is when the cursor clicks on the buttons -starts here */
+.operation:active {
+  background-color: #f18f44;
+}
+
+.number:active,
+.zero:active {
+  background-color: #858080;
+}
+
+.opps:active {
+  background-color: #cac5c5;
+}
+/* This is when the cursor clicks on the buttons -ends here */
+
+/* colors of the buttons - starts here */
 .operation {
-    background-color: #f96d00;
+  background-color: #f96d00;
 }
 
 .number {
-background-color: #5c5757;
+  background-color: #5c5757;
 }
 
 .opps {
-    color: #000;
+  color: #000;
 }
 
 .zero {
-background-color: #5c5757;
-width: 210px;
+  background-color: #5c5757;
+  width: 200px;
 }
+/* Colors of the buttons - ends here */
