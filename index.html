@@ -16,9 +16,9 @@
     <div id="calculator" class="calculator">
       <input id="display" class="display" readonly />
       <div id="keys">
-        <button class="opps" onclick="clearDiaplay()">AC</button>
+        <button class="opps" onclick="clearDisplay()">AC</button>
         <button class="opps" onclick="displayOperation('+/-')">+/-</button>
-        <button class="opps" onclick="displayOperation('%')">%</button>
+        <button class="opps" onclick="calculatePercentage('%')">%</button>
         <button class="operation" onclick="displayOperation('/')">/</button>
       </div>
       <div>
@@ -47,4 +47,10 @@
     </div>
     <script src="app.js"></script>
   </body>
+  <footer>
+    <p>
+      &copy This project was coded by <a href="http://" target="_blank">Jeal Lomiya</a>, it's open sourced on
+      <a href="http://" target="_blank">GitHub</a> and hosted on <a href="http://" targ>Netlify.</a>
+    </p>
+  </footer>
 </html>
