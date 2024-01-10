@@ -13,8 +13,10 @@ body {
 .calculator {
   font-family: "DM Serif Display", serif;
   font-family: "Playfair Display", serif;
-  max-width: 500px;
-  margin: auto;
+  width: 490px;
+  height: 490px;
+  margin: 50px auto;
+  padding: 10px;
   background: #141010;
   overflow: hidden;
   border-radius: 30px;
@@ -22,8 +24,8 @@ body {
 }
 
 .display {
-  width: 85%;
-  padding: 30px;
+  width: 90%;
+  padding: 20px;
   font-size: 80px;
   font-weight: 500;
   text-align: right;
@@ -37,10 +39,10 @@ div {
 }
 
 button {
-  width: 85px;
-  height: 85px;
+  width: 65px;
+  height: 65px;
   border-radius: 50px;
-  margin: 5px 10px 5px 22px;
+  margin: 5px 10px 5px 38px;
   border: none;
   color: #fff;
   font-size: 40px;
@@ -93,9 +95,9 @@ button {
 
 .zero {
   background-color: #5c5757;
-  width: 205px;
+  width: 183px;
   text-align: left;
-  padding-left: 30px;
+  padding-left: 25px;
 }
 /* Colors of the buttons - ends here */
 
