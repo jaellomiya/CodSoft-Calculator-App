@@ -33,20 +33,19 @@ body {
 }
 
 div {
-    display: inline-block;
+  display: inline-block;
 }
 
 button {
   width: 85px;
   height: 85px;
   border-radius: 50px;
-  margin: 5px 10px 5px 20px;
+  margin: 5px 10px 5px 22px;
   border: none;
   color: #fff;
   font-size: 40px;
   font-weight: 500;
   cursor: pointer;
-  
 }
 
 /* This is when the cursor hovers on the buttons -starts here */
@@ -108,7 +107,7 @@ button {
   }
 
   button {
-    width: 55px; 
+    width: 55px;
     height: 55px;
     font-size: 22px;
     margin: 5px 12px 5px 20px;
@@ -121,16 +120,17 @@ button {
 }
 
 footer {
-   color: #141010;
-background: linear-gradient(
+  color: #141010;
+  background: linear-gradient(
     112.1deg,
     rgb(32, 38, 57) 11.4%,
     rgb(63, 76, 119) 70.2%
-  );    text-align: center;
-    padding: 1px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  );
+  text-align: center;
+  padding: 1px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   font-family: "DM Serif Display", serif;
   font-family: "Playfair Display", serif;
   font-size: 10px;
@@ -143,5 +143,5 @@ a {
 }
 
 a:hover {
-    color: #f70776;
+  color: #f70776;
 }
